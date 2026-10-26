@@ -1,0 +1,187 @@
+/* 
+COMPLETE THE TOP COMMENT BLOCK BELOW
+Maar Drew-Joseph
+CPSC 342, Summer 2026
+Professor Walther
+Final Project
+Created: 8/02/2026
+Due Date: 8/05/2026
+Major: Information Technology
+File: style.css
+Purpose: this file contains the CSS styling for the Final Project web application. It defines the visual appearance of the HTML elements, including layout, colors, fonts, and other design aspects to enhance user experience.
+*/
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+background-color: aquamarine;
+color: black;
+
+}
+
+header {
+
+    background-color: blue;
+    color: white;
+    padding: 20px;
+
+}
+
+header h1 {
+
+    font-size: 3em;
+
+    
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+nav button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+nav-button:hover {
+
+    background-color: #333;
+}
+
+main {
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0 10px #ccc;
+
+}
+
+h2 {
+
+    margin-top: 0;
+    border-bottom: 3px solid black;
+padding-bottom: 8px;
+
+}
+
+input, select {
+    
+    padding: 9px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: small;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+
+    margin-top: 20px;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #3498db;
+}
+
+main button {
+    padding: 9px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: small;
+    cursor: pointer;
+    color: white;
+    background-color: #2ecc71;
+    margin-left: 30px;
+}
+
+main button:hover {
+    background-color: #2980b9;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: blueviolet;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:hover {background-color: #e6e6e6 ;}
+
+
+#update-gamer-tag,
+#update-main-character,
+#update-region {
+
+    margin-top: 10px;
+}
+
+#add-tournament-name,
+#add-tournament-location,
+#add-tournament-status {
+    min-width: 150px;
+
+}
+
+#add-player-count,
+#add-prize-pool,
+#search-tournament-id {
+       width: 200px;
+
+}
+
+#search-registration-id,
+#add-player-id,
+#add-tournament-id,
+#add-seeding,
+#add-placement {
+       width: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<!--
+    Name: index.html
+    Description: This is the main HTML file for the Smash Bros Tournament Manager application. It contains the structure of the web page, including the header, navigation buttons, and a main section where different views will be displayed based on user interaction.
+
+    
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smash Bros Tournament Manager</title>
+        <meta charset="utf-8">
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <template id="shell-template">
+            <header>
+                <h1>Smash Bros Tournament Manager</h1>
+            
+                <nav>
+                    <button data-view ="players">Players</button>
+                    <button data-view ="tournaments">Tournaments</button>
+                    <button data-view ="registrations">Registrations</button>
+                </nav>
+            </header>
+            <main id="view"></main>
+
+        </template>
+        <div id="app"></div>
+    
+    </body>
+</html>
+

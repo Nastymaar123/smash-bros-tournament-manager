@@ -1,0 +1,15 @@
+# Installed Node.js dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Debug logs
+*.log
